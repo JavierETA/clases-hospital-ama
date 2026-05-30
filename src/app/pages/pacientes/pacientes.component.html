@@ -1,0 +1,49 @@
+    <h2>Registro de pacientes</h2>
+
+    <input type="text" [(ngModel)]="nombrePaciente" placeholder="Ingrese nombre del paciente">
+    <input type="text" [(ngModel)]="telefonoPaciente" placeholder="Ingrese telefono del paciente">
+    <input type="text" [(ngModel)]="direccionPaciente" placeholder="Ingrese direccion del paciente">
+    <input type="text" [(ngModel)]="identificacionPaciente" placeholder="Ingrese identificacion del paciente">
+    <input type="date" [(ngModel)]="fechaPaciente" placeholder="Ingrese fecha de nacimiento del paciente">
+<button class="btn btn-success" (click)="agregarPaciente(nombrePaciente)">Agregar</button>
+@if (nombrePaciente.trim() == '') {
+    <p>El nombre del paciente es obligatorio</p>
+}@else {
+    <h4>{{nombrePaciente}}</h4>
+}
+<hr>
+<h3>Sistema de visualizacion de pacientes del hospital AMA </h3>
+<button class="btn btn-success" (click)="descargarJSON()">Descargar JSON</button>
+
+@if (hayPacientes) {
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Identificacion</th>
+                <th>Telefono</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (paciente of pacientes; track paciente.id) {
+                <tr>
+                    <td>{{paciente.nombre}}</td>
+                    <td>{{paciente.documento_identidad}}</td>
+                    <td>{{paciente.telefono}}</td>
+                    <td>
+                        <button class="btn btn-primary" (click)="mostrarPaciente(paciente)">Ver</button>
+                        <button class="btn btn-danger" (click)="eliminarPaciente(paciente.id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}@else {
+    <h4>No hay pacientes registrados en este momento.</h4>
+}
+
+
+
+

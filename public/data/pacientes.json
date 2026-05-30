@@ -1,0 +1,162 @@
+[
+	{
+		"id" : 1,
+		"nombre" : "Carlos López",
+		"documento_identidad" : "12345678",
+		"fecha_nacimiento" : "1990-05-15",
+		"direccion" : "Av. Principal #123, Ciudad",
+		"telefono" : "555-1234"
+	},
+	{
+		"id" : 2,
+		"nombre" : "Ana Martínez",
+		"documento_identidad" : "23456789",
+		"fecha_nacimiento" : "1985-07-20",
+		"direccion" : "Calle Secundaria #45, Ciudad",
+		"telefono" : "555-2345"
+	},
+	{
+		"id" : 3,
+		"nombre" : "Luis Fernández",
+		"documento_identidad" : "34567890",
+		"fecha_nacimiento" : "1992-09-10",
+		"direccion" : "Barrio Centro #22, Ciudad",
+		"telefono" : "555-3456"
+	},
+	{
+		"id" : 4,
+		"nombre" : "María Gómez",
+		"documento_identidad" : "45678901",
+		"fecha_nacimiento" : "1988-12-01",
+		"direccion" : "Residencial Norte #78, Ciudad",
+		"telefono" : "555-4567"
+	},
+	{
+		"id" : 5,
+		"nombre" : "Pedro Sánchez",
+		"documento_identidad" : "56789012",
+		"fecha_nacimiento" : "1995-03-25",
+		"direccion" : "Pueblo Nuevo #99, Ciudad",
+		"telefono" : "555-5678"
+	},
+	{
+		"id" : 6,
+		"nombre" : "Lucía Ramírez",
+		"documento_identidad" : "67890123",
+		"fecha_nacimiento" : "1980-11-30",
+		"direccion" : "Zona Industrial #55, Ciudad",
+		"telefono" : "555-6789"
+	},
+	{
+		"id" : 7,
+		"nombre" : "Juan Pérez",
+		"documento_identidad" : "78901234",
+		"fecha_nacimiento" : "1975-06-05",
+		"direccion" : "Avenida Sur #12, Ciudad",
+		"telefono" : "555-7890"
+	},
+	{
+		"id" : 8,
+		"nombre" : "Elena Torres",
+		"documento_identidad" : "89012345",
+		"fecha_nacimiento" : "2000-02-18",
+		"direccion" : "Colonia Este #36, Ciudad",
+		"telefono" : "555-8901"
+	},
+	{
+		"id" : 9,
+		"nombre" : "Ricardo Morales",
+		"documento_identidad" : "90123456",
+		"fecha_nacimiento" : "1987-08-12",
+		"direccion" : "Centro Histórico #88, Ciudad",
+		"telefono" : "555-9012"
+	},
+	{
+		"id" : 10,
+		"nombre" : "Sofía Herrera",
+		"documento_identidad" : "01234567",
+		"fecha_nacimiento" : "1993-04-22",
+		"direccion" : "Residencial Oeste #17, Ciudad",
+		"telefono" : "555-0123"
+	},
+	{
+		"id" : 11,
+		"nombre" : "Gabriel Castro",
+		"documento_identidad" : "12345000",
+		"fecha_nacimiento" : "1998-10-09",
+		"direccion" : "Paseo Central #65, Ciudad",
+		"telefono" : "555-1235"
+	},
+	{
+		"id" : 12,
+		"nombre" : "Isabela Ruiz",
+		"documento_identidad" : "23456000",
+		"fecha_nacimiento" : "1983-05-29",
+		"direccion" : "Calle Peatonal #90, Ciudad",
+		"telefono" : "555-2346"
+	},
+	{
+		"id" : 13,
+		"nombre" : "Fernando Díaz",
+		"documento_identidad" : "34567000",
+		"fecha_nacimiento" : "1990-07-14",
+		"direccion" : "Villa Hermosa #41, Ciudad",
+		"telefono" : "555-3457"
+	},
+	{
+		"id" : 14,
+		"nombre" : "Andrea López",
+		"documento_identidad" : "45678000",
+		"fecha_nacimiento" : "1996-12-19",
+		"direccion" : "Avenida Norte #85, Ciudad",
+		"telefono" : "555-4568"
+	},
+	{
+		"id" : 15,
+		"nombre" : "Daniel Ortega",
+		"documento_identidad" : "56789000",
+		"fecha_nacimiento" : "1979-11-03",
+		"direccion" : "Callejón del Sol #21, Ciudad",
+		"telefono" : "555-5679"
+	},
+	{
+		"id" : 16,
+		"nombre" : "Valentina Mendoza",
+		"documento_identidad" : "67890000",
+		"fecha_nacimiento" : "1991-03-11",
+		"direccion" : "Zona Rosa #72, Ciudad",
+		"telefono" : "555-6780"
+	},
+	{
+		"id" : 17,
+		"nombre" : "Martín Paredes",
+		"documento_identidad" : "78901000",
+		"fecha_nacimiento" : "2002-06-07",
+		"direccion" : "Barrio Colonial #44, Ciudad",
+		"telefono" : "555-7891"
+	},
+	{
+		"id" : 18,
+		"nombre" : "Carla Vázquez",
+		"documento_identidad" : "89012000",
+		"fecha_nacimiento" : "1986-09-26",
+		"direccion" : "Centro Urbano #10, Ciudad",
+		"telefono" : "555-8902"
+	},
+	{
+		"id" : 19,
+		"nombre" : "Javier Núñez",
+		"documento_identidad" : "90123000",
+		"fecha_nacimiento" : "1982-02-14",
+		"direccion" : "Residencial Nueva #66, Ciudad",
+		"telefono" : "555-9013"
+	},
+	{
+		"id" : 20,
+		"nombre" : "Paula Gutiérrez",
+		"documento_identidad" : "01234000",
+		"fecha_nacimiento" : "1997-08-31",
+		"direccion" : "Calle Central #39, Ciudad",
+		"telefono" : "555-0124"
+	}
+]
